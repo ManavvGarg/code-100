@@ -1,6 +1,8 @@
 # Code-100
 *daily coding journey and achievements*
 
+Inspired by [Astha Tripathi](https://github.com/asthatripathi17)!
+
 ## Daily codimg
 
 Within this repository, you'll discover my solutions to daily coding challenges sourced from a variety of platforms. My objective is to tackle a coding problem every day. 
