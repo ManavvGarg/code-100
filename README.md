@@ -11,5 +11,5 @@ Below, you'll encounter a table that outlines each day's challenge, providing de
 ## Tracker
 | Date       | Folder Name          | Problem Title      | Difficulty         | Link                                      |
 |------------|----------------------|--------------------|--------------------|-------------------------------------------|
-| 24-09-2023 | [Day-1](https://github.com/manavvgarg/code-100/tree/main/Day-1)| To be done | Easy | [LeetCode Problem NA]() |
+| 24-09-2023 | [Day-1](https://github.com/manavvgarg/code-100/tree/main/Day-1)| Mergin two linked list into a sorted linked list | Easy | [LeetCode Problem 21](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | 25-09-2023 | [Day-2](https://github.com/manavvgarg/code-100/tree/main/Day-2)| To be done | Easy | [LeetCode Problem NA]() |
