@@ -1,4 +1,4 @@
-# LeetCode problem 148
+# LeetCode problem 83
 Removing duplicatees from a singly linked list
 
 ## Given
@@ -38,9 +38,3 @@ This function takes the head of a linked list as input and returns the head of t
 7. After each iteration, curr is updated to point to the next node in the list (prev->next).
 
 8. Finally, the function returns the head of the modified linked list with duplicates removed.
-
-
-Example: <br/><br/>
-![Alt text](image.png)
-
-![Alt text](image-1.png)
