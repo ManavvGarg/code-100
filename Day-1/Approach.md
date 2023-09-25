@@ -33,5 +33,5 @@ Definition for singly-linked list.
 6. The merged list is complete, and the code returns the next node after prehead, which is the actual head of the merged list.
 
 
-Example:
+Example: <br/><br/>
 ![Alt text](image.png)
