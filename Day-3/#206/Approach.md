@@ -19,39 +19,25 @@ Definition for singly-linked list.
 
 # Approach
 
-### ListNode* sortList(ListNode* head): This function takes the head of a linked list as input and returns the head of the sorted linked list.
+1. Function Signature: The reverseList method is a member function of the Solution class, which means it can be called using an instance of the Solution class. It takes a single argument, a pointer to a ListNode representing the head of the linked list. The function returns a pointer to a ListNode, which represents the new head of the reversed list.
 
-1. Base case: If the head is NULL or there's only one element in the list, it returns the head.
+2. Edge Case Handling: The function starts with some edge case handling. If the input head is NULL or if it is the only node in the list (i.e., head->next is NULL), there is no need to reverse the list, so the function simply returns the head as it is.
 
-2. It initializes three pointers: slow, fast, and temp. The slow and fast pointers are used to find the middle of the linked list, while temp is used to store the previous node of the slow pointer.
+3. Pointer Variables: The function declares two pointer variables, prev and forward, both initially set to NULL. These pointers will be used to reverse the linked list iteratively.
 
-3. The while loop iterates through the list with fast moving twice as fast as slow. When fast reaches the end of the list, slow will be at the middle.
+4. Reversing the List Iteratively: The core logic of reversing the linked list is done using a while loop. Here's what happens inside the loop:
 
-4. The list is then split into two parts by setting temp->next to NULL.
+  a. forward = head->next;: This line stores a pointer to the next node in the forward variable. This is done to prevent losing the rest of the list during the reversal.
 
-5. Recursively call sortList on both halves (left and right) of the list.
+  b. head->next = prev;: This line changes the next pointer of the current head node to point to the previous node (prev). This effectively reverses the direction of the edge for the current node.
 
-6. Finally, the two sorted halves are merged using the mergeList function and the head of the merged list is returned.
+  c. prev = head;: This line updates the prev pointer to the current head node, so it can be used as the previous node in the next iteration.
 
-### ListNode* mergeList(ListNode *l1, ListNode *l2): This function takes two sorted linked lists (l1 and l2) as input and returns the head of the merged sorted linked list.
+  d. head = forward;: This line updates the head pointer to the forward node, which is the next node in the original list. This allows the loop to continue until the entire list is reversed.
 
-1. It creates a dummy node ans with value -1 and initializes a pointer ptr to point to this dummy node.
+5. Memory Cleanup: After the loop finishes, the forward pointer will be NULL because it has moved through the entire list. The code attempts to free this memory using free(forward);. However, this is not necessary and might lead to a runtime error if forward was not allocated using malloc or new. Since forward is just a temporary pointer and does not represent dynamically allocated memory in this context, it's best to remove this line.
 
-2. If either l1 or l2 is NULL, it returns the non-NULL list.
-
-3. The while loop iterates through both lists until one of them becomes NULL. At each step, it compares the values of the current nodes in l1 and l2. The node with the smaller value is connected to the ptr node, and the corresponding list pointer (l1 or l2) is moved to the next node.
-
-4. After the loop, if there are still remaining nodes in either l1 or l2, they are connected to the ptr node since they are already sorted.
-
-5. Finally, the function returns the next node of the dummy node ans, which is the head of the merged sorted list.
-
-# However, A new problem arised
-A problem arised when it started taking too much memory. It was efficient in giving results (good time complexity) but was taking to much memory.
-
-#### Solution
-To make it more efficient, in `mergeList` function instead of creating a new dummy node, we can directly link the nodes and do the comparison between the node's values/data and return the pointer to the merged list.
-
-In this version, we've removed the dummy node (ListNode(-1)) and instead initialized ptr and ans with either l1 or l2, depending on which has the smaller value. This reduces the memory usage slightly by avoiding the creation of an extra node.
+6. Return the New Head: Finally, the function returns the prev pointer, which now points to the new head of the reversed list.
 
 
 Example: <br/><br/>
