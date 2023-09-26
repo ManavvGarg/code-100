@@ -52,8 +52,3 @@ A problem arised when it started taking too much memory. It was efficient in giv
 To make it more efficient, in `mergeList` function instead of creating a new dummy node, we can directly link the nodes and do the comparison between the node's values/data and return the pointer to the merged list.
 
 In this version, we've removed the dummy node (ListNode(-1)) and instead initialized ptr and ans with either l1 or l2, depending on which has the smaller value. This reduces the memory usage slightly by avoiding the creation of an extra node.
-
-
-Example: <br/><br/>
-![Alt text](image.png) <br /> <br />
-![Alt text](image-1.png)

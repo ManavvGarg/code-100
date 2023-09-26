@@ -31,7 +31,3 @@ Definition for singly-linked list.
 5. Finally, the code checks if either l1 or l2 is still not null and attaches the remaining elements to the end of the merged list. It does this by using the ternary operator l1 == null ? l2 : l1. If l1 is null, it means all elements in list1 have been merged, so it attaches the remaining elements in list2. If l2 is null, it attaches the remaining elements in list1.
 
 6. The merged list is complete, and the code returns the next node after prehead, which is the actual head of the merged list.
-
-
-Example: <br/><br/>
-![Alt text](image.png)

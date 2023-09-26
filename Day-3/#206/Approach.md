@@ -57,6 +57,3 @@ After the recursive calls return, the function starts reversing the list. It doe
 
 5. Return the New Head: return newHead;
 Finally, the function returns the newHead, which was set to the original tail of the list after the recursive calls. This newHead is now the head of the reversed list.
-
-Example: <br/><br/>
-![Alt text](image.png)
