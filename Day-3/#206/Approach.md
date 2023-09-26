@@ -19,6 +19,7 @@ Definition for singly-linked list.
 
 # Approach
 
+## iterative
 1. Function Signature: The reverseList method is a member function of the Solution class, which means it can be called using an instance of the Solution class. It takes a single argument, a pointer to a ListNode representing the head of the linked list. The function returns a pointer to a ListNode, which represents the new head of the reversed list.
 
 2. Edge Case Handling: The function starts with some edge case handling. If the input head is NULL or if it is the only node in the list (i.e., head->next is NULL), there is no need to reverse the list, so the function simply returns the head as it is.
@@ -39,6 +40,23 @@ Definition for singly-linked list.
 
 6. Return the New Head: Finally, the function returns the prev pointer, which now points to the new head of the reversed list.
 
+## Recursive
+
+1. Function Signature: ListNode* reverseList(ListNode* head)
+The function takes a pointer to the head of a singly linked list as input and returns a pointer to the new head of the reversed list.
+
+2. Base Case: if (head == NULL || head->next == NULL) return head;
+The function starts by checking if the given list is either empty (head is NULL) or has only one element (head->next is NULL). In these cases, there's no need to reverse anything, so it immediately returns the current head, which will be the head of the reversed list.
+
+3. Recursive Step: ListNode* newHead = reverseList(head->next);
+If the base case is not met, the function recursively calls itself with the next node (head->next) as an argument. This recursive call continues until it reaches the end of the list, where head->next is either NULL or the last element of the original list. The variable newHead stores the result of this recursive call, which will be the new head of the reversed list.
+
+4. Reversing the List: head->next->next = head;
+head->next = NULL;
+After the recursive calls return, the function starts reversing the list. It does so by updating the next pointer of the current head (head->next->next) to point to the current head (head), effectively reversing the direction of the link. Then, it sets the next pointer of the current head (head->next) to NULL to break the link to the next node. This process repeats for each node in the list, effectively reversing the entire list.
+
+5. Return the New Head: return newHead;
+Finally, the function returns the newHead, which was set to the original tail of the list after the recursive calls. This newHead is now the head of the reversed list.
 
 Example: <br/><br/>
 ![Alt text](image.png)
