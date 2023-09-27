@@ -5,7 +5,7 @@ Inspired by [Astha Tripathi](https://github.com/asthatripathi17)!
 
 ## Daily codimg
 
-Within this repository, you'll discover my solutions to daily coding challenges sourced from a variety of platforms. My objective is to tackle a coding problem every day. 
+Within this repository, you'll discover my solutions to daily coding challenges sourced from a variety of platforms. My objective is to tackle atleast one coding problem every day. 
 Below, you'll encounter a table that outlines each day's challenge, providing details such as the folder name, problem title, and a direct link to the problem itself.
 
 ## Tracker
