@@ -16,3 +16,5 @@ Below, you'll encounter a table that outlines each day's challenge, providing de
 |  |  | Removing duplicate entries from a singly linked list | Easy | [LeetCode Problem 83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |
 |  |  | Search in Rotated Sorted Array | Medium | [LeetCode Problem 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
 | 26-09-2023 | [Day-3](https://github.com/manavvgarg/code-100/tree/main/Day-3)| Reversing a Linked List - Iterative and Recursive | Easy | [LeetCode Problem 206](https://leetcode.com/problems/reverse-linked-list/) |
+| 27-09-2023 | [Day-4](https://github.com/manavvgarg/code-100/tree/main/Day-4)| Linked List Cycle | Easy | [LeetCode Problem 141](https://leetcode.com/problems/linked-list-cycle/) |
+| 28-09-2023 | [Day-5](https://github.com/manavvgarg/code-100/tree/main/Day-5)| Add Two Numbers | Medium | [LeetCode Problem 2](https://leetcode.com/problems/add-two-numbers/) |
