@@ -21,3 +21,4 @@ Below, you'll encounter a table that outlines each day's challenge(s), providing
 | 29-09-2023 | [Day-6](https://github.com/manavvgarg/code-100/tree/main/Day-6)| Remove Nth Node From End of a Linked List | Medium | [LeetCode Problem 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |
 | 30-09-2023 | [Day-7](https://github.com/manavvgarg/code-100/tree/main/Day-7)| Remove Duplicates from Sorted Array | Easy | [LeetCode Problem 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | 01-10-2023 | [Day-8](https://github.com/manavvgarg/code-100/tree/main/Day-8)| Rotate List | Medium | [LeetCode Problem 61](https://leetcode.com/problems/rotate-list/) |
+| 02-10-2023 | [Day-9](https://github.com/manavvgarg/code-100/tree/main/Day-9)| Remove Duplicates from Sorted List II | Medium | [LeetCode Problem 82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |
