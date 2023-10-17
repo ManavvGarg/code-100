@@ -25,3 +25,9 @@ Below, you'll encounter a table that outlines each day's challenge(s), providing
 | 03-10-2023 | [Day-10](https://github.com/manavvgarg/code-100/tree/main/Day-10)| K Items With the Maximum Sum | Easy | [LeetCode Problem 2600](https://leetcode.com/problems/k-items-with-the-maximum-sum/) |
 | 04-10-2023 | [Day-11](https://github.com/manavvgarg/code-100/tree/main/Day-11)| Difference Between Element Sum and Digit Sum of an Array | Easy | [LeetCode Problem 2535](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) |
 | 05-10-2023 | [Day-12](https://github.com/manavvgarg/code-100/tree/main/Day-12)| Number of Distinct Averages | Easy | [LeetCode Problem 2465](https://leetcode.com/problems/number-of-distinct-averages/) |
+| 06-10-2023 | [Day-13](https://github.com/manavvgarg/code-100/tree/main/Day-13)| Valid Parantheses | Easy | [LeetCode Problem 20](https://leetcode.com/problems/valid-parentheses/) |
+| 07-10-2023 | [Day-14](https://github.com/manavvgarg/code-100/tree/main/Day-14)| 3SUM | Medium | [LeetCode Problem 15](https://leetcode.com/problems/3sum/) |
+| 08-10-2023 | [Day-15](https://github.com/manavvgarg/code-100/tree/main/Day-15)| Longest Palindromic Substring | Medium | [LeetCode Problem 5](https://leetcode.com/problems/longest-palindromic-substring/) |
+| 09-10-2023 | [Day-16](https://github.com/manavvgarg/code-100/tree/main/Day-16)| Reverse Integer | Medium | [LeetCode Problem 7](https://leetcode.com/problems/reverse-integer/) |
+| 10-10-2023 | [Day-17](https://github.com/manavvgarg/code-100/tree/main/Day-17)| Integer to Roman | Medium | [LeetCode Problem 12](https://leetcode.com/problems/integer-to-roman/) |
+| 10-10-2023 | [Day-18](https://github.com/manavvgarg/code-100/tree/main/Day-18)| Remove Element | Easy | [LeetCode Problem 27](https://leetcode.com/problems/remove-element/) |
