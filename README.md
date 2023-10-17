@@ -30,4 +30,4 @@ Below, you'll encounter a table that outlines each day's challenge(s), providing
 | 08-10-2023 | [Day-15](https://github.com/manavvgarg/code-100/tree/main/Day-15)| Longest Palindromic Substring | Medium | [LeetCode Problem 5](https://leetcode.com/problems/longest-palindromic-substring/) |
 | 09-10-2023 | [Day-16](https://github.com/manavvgarg/code-100/tree/main/Day-16)| Reverse Integer | Medium | [LeetCode Problem 7](https://leetcode.com/problems/reverse-integer/) |
 | 10-10-2023 | [Day-17](https://github.com/manavvgarg/code-100/tree/main/Day-17)| Integer to Roman | Medium | [LeetCode Problem 12](https://leetcode.com/problems/integer-to-roman/) |
-| 10-10-2023 | [Day-18](https://github.com/manavvgarg/code-100/tree/main/Day-18)| Remove Element | Easy | [LeetCode Problem 27](https://leetcode.com/problems/remove-element/) |
+| 11-10-2023 | [Day-18](https://github.com/manavvgarg/code-100/tree/main/Day-18)| Remove Element | Easy | [LeetCode Problem 27](https://leetcode.com/problems/remove-element/) |
